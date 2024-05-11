@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montagu+Slab&family=Montserrat&family=Playfair+Display:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(22, 22, 21, 0.5);
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cabecalho_menu_link {
+    font-family: 'krona-One', sans-serif;
+    font-size: 24px;
+    color: #ffda00;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+body {
+    background: url(https://www.4estylos.com.br/public/img/layout/default/bg.jpg);
+}
+
+main{
+    background-image: url(/images/qsm.png);
+}
+
+div {
+    
+    text-align: center;
+    padding-top: 150px;
+    color: #ffda00;
+}
