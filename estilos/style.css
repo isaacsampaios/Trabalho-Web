@@ -36,3 +36,12 @@ nav {
 body{
     background: url(https://www.4estylos.com.br/public/img/layout/default/bg.jpg);
 }
+
+.corpo_apizzaria {
+    background-image: url(/images/qsm.png);
+    background-repeat: no-repeat;
+}
+
+.delivery {
+    background-color: #ffda00;
+}
