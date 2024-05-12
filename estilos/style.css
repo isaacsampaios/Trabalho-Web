@@ -20,7 +20,7 @@ nav {
 }
 
 .cabecalho_menu_link {
-    font-family: 'krona-One', sans-serif;
+    font-family: K;
     font-size: 24px;
     color: #ffda00;
     display: flex;
@@ -39,7 +39,7 @@ body{
     background-size: 100%;
 }
 
-.corpo_apizzaria {
+.corpo {
     background-image: url(https://www.4estylos.com.br/public/img/layout/default/home/qs.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -47,8 +47,8 @@ body{
     width: 100%;
 }
 
-.corpo_apizzaria_conteudo_titulo {
-    font-family: 
+.corpo_conteudo_titulo {
+    color: #ffda00;
 }
 
 .delivery {
@@ -61,11 +61,4 @@ body{
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
-    
-
-}
-
-.cardapio_back{
-    
-    
 }
