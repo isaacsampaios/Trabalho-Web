@@ -29,19 +29,43 @@ nav {
 }
 
 .logo{
-    width: 150px;
-    height: 150px; 
+    width: 8.5rem;
+    height: 8.5rem; 
 }
 
 body{
     background: url(https://www.4estylos.com.br/public/img/layout/default/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .corpo_apizzaria {
-    background-image: url(/images/qsm.png);
+    background-image: url(https://www.4estylos.com.br/public/img/layout/default/home/qs.png);
     background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+}
+
+.corpo_apizzaria_conteudo_titulo {
+    font-family: 
 }
 
 .delivery {
     background-color: #ffda00;
+}
+
+.cardapio{
+    
+    background-image: url(/images/pexels-vinicius-benedit-1082343\ \(1\)\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    
+
+}
+
+.cardapio_back{
+    
+    
 }
