@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: rgba(22, 22, 21, 0.5);
+    background-color: #16161580;
     width: 100%;
     position: sticky;
 }
@@ -44,7 +44,7 @@ body{
 .corpo {
     background-image: url(https://www.4estylos.com.br/public/img/layout/default/home/qs.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position: center;
     width: 100%;
 }
@@ -151,17 +151,17 @@ body{
     background-color: #EA2B1F;
 }
 
-.cardapio{
-    
+.cardapio {
+    background-image: url(/images/cardapio.webp);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
+    padding-bottom: 30px;
 }
 
 .cardapio_principal {
     display: flex;
     flex-direction: column;
-
 }
 
 .cardapio_titulo {
@@ -231,3 +231,59 @@ body{
     background-color: #EA2B1F;
 }
 
+footer {
+    background-image: url(/images/rodape.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.rodape_image {
+    height: 16rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rodape_links {
+    display: flex;
+    align-items: center;
+    border: 2px solid #EA2B1F;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rodape_redes img { 
+    height: 5rem;
+    width: 5rem;
+    margin-right: 10px;
+}
+
+.rodape_links_texto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffda00;
+    display: flex;
+    align-content: center;
+}
+
+.rodape_links:hover {
+    background-color: #D80E15;
+}
