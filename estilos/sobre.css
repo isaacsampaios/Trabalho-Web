@@ -131,7 +131,11 @@ body{
 }
 
 .fundador {
-
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .fundador_titulo {
@@ -139,10 +143,25 @@ body{
     font-weight: 900;
     font-size: 45px;
     color: #ffda00;
+    text-align: center;
+    padding: 40px;
 }
 
 .fundador_1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
 
+.fundador_1_imagem {
+    padding-right: 20px;
+    
+}
+
+.fundador_1_imagem img {
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
 }
 
 .fundador_1 p {
@@ -150,4 +169,62 @@ body{
     font-weight: 400;
     font-size: 20px;
     color: #ffda00;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
+
+.fundador_2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.fundador_2 p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffda00;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.fundador_2_imagem {
+    padding: 0 20px;
+    
+}
+
+.fundador_2_imagem img {
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+}
+
+.fundador_3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.fundador_3_imagem {
+    padding-right: 20px;
+    
+}
+
+.fundador_3_imagem img {
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+}
+
+.fundador_3 p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffda00;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
