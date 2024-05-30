@@ -16,7 +16,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .cabecalho_menu_link {
@@ -28,6 +27,10 @@ nav {
     display: flex;
     align-items: center;
     text-decoration: none;
+}
+
+.cabecalho_menu_link:hover {
+    color: #EA2B1F;
 }
 
 .logo{
@@ -301,6 +304,7 @@ footer {
 .rodape_links:hover {
     background-color: #D80E15;
 }
+
 @media only screen and (max-width: 768px) {
     nav {
         flex-direction: column;

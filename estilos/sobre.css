@@ -135,11 +135,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    padding-bottom: 20px;
 }
 
 .fundador_titulo {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 45px;
     color: #ffda00;
@@ -228,3 +228,102 @@ body{
     text-align: center;
 }
 
+.corpo_ideais {
+    background-color: #EA2B1F;
+    padding-bottom: 15px;
+}
+
+.missao, .visao, .valores {
+    display: flex;
+    flex-direction: row;
+}
+
+.missao h2, .visao h2, .valores h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #ffda00;
+    text-align: center;
+    padding: 40px;
+}
+
+.missao p, .visao p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffda00;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.valores_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+.valores_texto p {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #ffda00;
+}
+
+footer {
+    background-image: url(/images/rodape.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.rodape_image {
+    height: 16rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape_redes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rodape_links {
+    display: flex;
+    align-items: center;
+    border: 2px solid #EA2B1F;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.rodape_redes img { 
+    height: 5rem;
+    width: 5rem;
+    margin-right: 10px;
+}
+
+.rodape_links_texto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffda00;
+    display: flex;
+    align-content: center;
+}
+
+.rodape_links:hover {
+    background-color: #D80E15;
+}
