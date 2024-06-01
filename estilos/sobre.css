@@ -38,7 +38,9 @@ nav {
 body{
     background: url(https://www.4estylos.com.br/public/img/layout/default/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 .historia {
@@ -196,8 +198,8 @@ body{
 }
 
 .fundador_2_imagem img {
-    height: 152px;
-    width: 152px;
+    height: 9.5rem;
+    width: 9.5rem;
     border-radius: 50%;
 }
 
@@ -326,4 +328,97 @@ footer {
 
 .rodape_links:hover {
     background-color: #D80E15;
+}
+
+@media (max-width: 768px) {
+    .historia_inicio,
+    .historia_nome,
+    .fundador_1,
+    .fundador_3,
+    .missao,
+    .visao,
+    .valores, .valores_texto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .historia_jornada, .fundador_2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .historia_inicio_texto h2,
+    .historia_jornada_texto h2,
+    .historia_nome_texto h2,
+    .fundador_titulo,
+    .missao h2,
+    .visao h2,
+    .valores h2 {
+        font-size: 32px;
+    }
+
+    .historia_inicio_texto p,
+    .historia_jornada_texto p,
+    .historia_nome_texto p,
+    .fundador_1 p,
+    .fundador_2 p,
+    .fundador_3 p,
+    .missao p,
+    .visao p,
+    .valores_texto p {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .historia_inicio_imagem img,
+    .historia_jornada_imagem img,
+    .historia_nome_imagem img {
+        height: 15rem;
+    }
+
+    .fundador_1_imagem img,
+    .fundador_2_imagem img,
+    .fundador_3_imagem img {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .historia_inicio_texto h2,
+    .historia_jornada_texto h2,
+    .historia_nome_texto h2,
+    .fundador_titulo,
+    .missao h2,
+    .visao h2,
+    .valores h2 {
+        font-size: 24px;
+    }
+
+    .historia_inicio_texto p,
+    .historia_jornada_texto p,
+    .historia_nome_texto p,
+    .fundador_1 p,
+    .fundador_2 p,
+    .fundador_3 p,
+    .missao p,
+    .visao p,
+    .valores_texto p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .historia_inicio_imagem img,
+    .historia_jornada_imagem img,
+    .historia_nome_imagem img {
+        height: 10rem;
+    }
+
+    .fundador_1_imagem img,
+    .fundador_2_imagem img,
+    .fundador_3_imagem img {
+        height: 100px;
+        width: 100px;
+    }
 }
