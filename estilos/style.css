@@ -388,19 +388,13 @@ footer {
     }
 }
 
-body{
-    background: url(https://www.4estylos.com.br/public/img/layout/default/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
-
 .historia {
     margin-top: 1rem;
 }
 
-.historia_inicio, .historia_jornada, .historia_nome {
+.historia_inicio, 
+.historia_jornada, 
+.historia_nome {
     display: flex;
     flex-direction: row;
 }
@@ -466,18 +460,23 @@ body{
     padding: 40px;
 }
 
-.fundador_1, .fundador_2, .fundador_3 {
+.fundador_1, 
+.fundador_2, 
+.fundador_3 {
     display: flex;
     flex-direction: row;
     margin-left: 30px;
 }
 
-.fundador_1_imagem, .fundador_3_imagem {
+.fundador_1_imagem, 
+.fundador_3_imagem {
     padding-right: 20px;
     
 }
 
-.fundador_1 p, .fundador_2 p, .fundador_3 p {
+.fundador_1 p, 
+.fundador_2 p, 
+.fundador_3 p {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -505,12 +504,16 @@ body{
     padding-bottom: 15px;
 }
 
-.missao, .visao, .valores {
+.missao, 
+.visao, 
+.valores {
     display: flex;
     flex-direction: row;
 }
 
-.missao h2, .visao h2, .valores h2 {
+.missao h2, 
+.visao h2, 
+.valores h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
     font-size: 45px;
@@ -519,7 +522,8 @@ body{
     padding: 40px;
 }
 
-.missao p, .visao p {
+.missao p, 
+.visao p {
     font-family: "Work Sans", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -550,12 +554,14 @@ body{
     .fundador_3,
     .missao,
     .visao,
-    .valores, .valores_texto {
+    .valores, 
+    .valores_texto {
         flex-direction: column;
         align-items: center;
     }
 
-    .historia_jornada, .fundador_2 {
+    .historia_jornada, 
+    .fundador_2 {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
