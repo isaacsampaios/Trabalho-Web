@@ -443,7 +443,7 @@ footer {
 }
 
 .fundador {
-    background-image: url(/images/pexels-photo-14520444.jpeg);
+    background-image: url(/images/fundo_CEO.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -547,7 +547,7 @@ footer {
     color: #ffda00;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .historia_inicio,
     .historia_nome,
     .fundador_1,
@@ -604,40 +604,150 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
-    .historia_inicio_texto h2,
-    .historia_jornada_texto h2,
-    .historia_nome_texto h2,
-    .fundador_titulo,
-    .missao h2,
-    .visao h2,
-    .valores h2 {
-        font-size: 24px;
+.titulo_page_3 {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #ffda00;
+    text-align: center;
+    padding: 20px;
+}
+
+.pizzas {
+    padding-bottom: 70px;
+}
+
+.pizzas_titulo {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: #ffda00;
+    padding-left: 5px;
+}
+
+.pizzas_subtitulo {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #ffda00;
+    padding-left: 10px;
+}
+
+.pizzas_tamanho {
+    display: flex;
+    flex-direction: row;
+}
+
+.pizzas_tamanho .letra {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EA2B1F;
+    padding: 0 10px 20px;
+}
+
+.pizzas_tamanho .descricao {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffda00;
+}
+
+.pizzas_conteudo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.pizzas_conteudo_texto {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #EA2B1F;
+    
+}
+
+.pizzas_conteudo_descricao {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffda00;
+    
+}
+
+.pizzas_conteudo_preco {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.pizzas_conteudo_preco .tamanho{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #EA2B1F;
+    padding-right: 10px;
+}
+
+.pizzas_conteudo_preco .preco {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffda00;
+    padding-right: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .titulo_page_3 {
+        font-size: 32px;
+        padding: 10px;
     }
 
-    .historia_inicio_texto p,
-    .historia_jornada_texto p,
-    .historia_nome_texto p,
-    .fundador_1 p,
-    .fundador_2 p,
-    .fundador_3 p,
-    .missao p,
-    .visao p,
-    .valores_texto p {
+    .pizzas {
+        padding-bottom: 40px;
+    }
+
+    .pizzas_titulo {
+        font-size: 32px;
+        padding-left: 5px;
+    }
+
+    .pizzas_subtitulo {
+        font-size: 18px;
+        padding-left: 5px;
+    }
+
+    .pizzas_tamanho {
+        flex-direction: column;
+    }
+
+    .pizzas_tamanho .letra,
+    .pizzas_tamanho .descricao {
         font-size: 14px;
-        padding: 5px;
+        padding: 5px 0;
     }
 
-    .historia_inicio_imagem img,
-    .historia_jornada_imagem img,
-    .historia_nome_imagem img {
-        height: 10rem;
+    .pizzas_conteudo {
+        padding-left: 5px;
     }
 
-    .fundador_1_imagem img,
-    .fundador_2_imagem img,
-    .fundador_3_imagem img {
-        height: 100px;
-        width: 100px;
+    .pizzas_conteudo_texto {
+        font-size: 18px;
+    }
+
+    .pizzas_conteudo_descricao {
+        font-size: 14px;
+    }
+
+    .pizzas_conteudo_preco {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pizzas_conteudo_preco .tamanho,
+    .pizzas_conteudo_preco .preco {
+        font-size: 14px;
+        padding-right: 0;
+        padding-bottom: 10px;
     }
 }

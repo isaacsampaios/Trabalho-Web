@@ -133,7 +133,7 @@ body{
 }
 
 .fundador {
-    
+    background-image: url(/images/fundo_CEO.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
