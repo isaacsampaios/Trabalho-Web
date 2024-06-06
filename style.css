@@ -280,7 +280,7 @@ footer {
 .rodape_links {
     display: flex;
     align-items: center;
-    border: 2px solid #EA2B1F;
+    border:  2px solid #EA2B1F;
     padding: 10px;
     border-radius: 20px;
     margin: 10px 0;
